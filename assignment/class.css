@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* border: 2px solid black; */
+    height: 150px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 80px;
+    background-color: #222329;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* width: %; */
+    height: 90px;
+    align-items: center;
+}
+
+.nav-logo {
+    /* border: 2px solid green; */
+    width: 145vh;
+
+}
+
+.nav-logo img {
+    width: 120px;
+}
+
+.nav {
+    /* border: 2px solid yellow; */
+
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav ul li {
+    list-style: none;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav button {
+    color: white;
+    background-color: #222329;
+    border: 1px solid white;
+    /* padding: 10px; */
+    width: 15vh;
+    height: 25px;
+
+}
+
+.amit-section {
+    /* border: 2px solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #222329;
+    color: white;
+    width: 100%;
+    position: relative;
+
+}
+
+.amit-container {
+    /* border: 2px solid yellow; */
+    /* align-items: center; */
+    text-align: center;
+    width: 90vh;
+    line-height: 60px;
+    margin-top: 40PX;
+    /* display: flex; */
+}
+
+.amit-container h1 {
+    font-size: 50px;
+
+
+}
+
+.amit-container p {
+    font-size: 30px;
+}
+
+.amit-container button {
+    width: 120px;
+    color: white;
+    height: 40px;
+    /* border: none; */
+    border-radius: 5px;
+    background-color: #F93F3F;
+}
+
+.audit {
+    position: absolute;
+    height: 500px;
+    /* width: 70%; */
+    /* background-color: #F93F3F; */
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    right: 5px;
+    /* left: 500px; */
+
+
+}
+
+.hero {
+    /* border: 2px solid red; */
+    height: 40px;
+}
+
+.heroo {
+    /* border: 2px solid red; */
+    height: 70px;
+}
+
+.card1 {
+    background-color: white;
+    color: black;
+    height: 200px;
+    width: 290px;
+    /* border: 2px solid red; */
+    line-height: 20px;
+    text-align: left;
+    margin-top: 20PX;
+    padding: 20PX;
+    border-radius: 10PX;
+    /* box-shadow: 10px 20px #f8f8f8; */
+    box-shadow: 3px 3px 5px 2px rgb(226, 226, 226);
+}
+
+.card1 p {
+    font-size: 15px;
+}
+
+.ipsum-container {
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 90vh;
+}
+
+.ipsum-main-container {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin-top: 30px; */
+}
+
+.ipsum-main-container img {
+    width: 360px;
+}
+
+.left-ipsum {
+    /* border: 2px solid green; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: auto; */
+    width: 400px;
+    height: 200px;
+    line-height: 20px;
+}
+
+.left-ipsum p {
+    margin-top: 20px;
+}
+
+.iipsum-main-container {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    /* margin-top: 30px; */
+}
+
+.iipsum-main-container img {
+    width: 360px;
+}
+
+/* .hero{
+    border: 2px solid goldenrod;
+    height: 90vh;
+} */
+.adipsing-container {
+    /* border: 2px solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duis-container {
+    /* border: 2px solid yellow; */
+    height: 50vh;
+    /* width: 900px; */
+    /* width: 80%; */
+
+    /* display: flex; */
+}
+
+.vitae-container {
+    /* border: 2px solid green; */
+    width: 600px;
+
+}
+
+.adipiscing-main-container {
+    /* border: 2px solid red; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adipiscing-container {
+    /* border: 2px solid yellow; */
+    width: 950px;
+    /* height: 70vh; */
+}
+
+.adipiscing-heading {
+    /* border: 2px solid green; */
+    width: 400px;
+    /* line-height: 40px; */
+}
+
+.adipiscing-heading h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Design-concep-main-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 90px;
+    margin-top: 40px;
+}
+
+.Design-concep-main-container h2 {
+    margin-bottom: 20px;
+}
+
+.Design-concept-container {
+    /* border: 2px solid green; */
+    width: 85em;
+}
+
+/* .Design-concept-container h2{
+    margin-bottom: 20px;
+} */
+.Developing-websites-container {
+    /* border: 2px solid palevioletred; */
+    width: 80em;
+}
+
+.Design-concept-container i {
+    margin-right: 10px;
+}
+
+.Developing-websites-container i {
+    margin-right: 10px;
+}
+
+.messa-main-container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.messa-container-heading {
+    /* border: 2px solid green; */
+    line-height: 20px;
+    width: 390px;
+
+}
+
+.messa-container-heading h2 {
+    line-height: 70px;
+}
+
+.messa-container {
+    /* border: 2px solid orange; */
+    background-color: #222329;
+    height: 30vh;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.messa-container-button button {
+    height: 40px;
+    width: 120px;
+    background-color: #FF4141;
+    border: none;
+    border-radius: 5px;
+}
+
+.Experienced-heading-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 50%;
+}
+
+.Experienced-team-main-container {
+    /* border: 2px solid orange; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.Experienced-team-container {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 10vh;
+    /* justify-content: space-evenly; */
+
+    justify-content: space-between;
+    width: 62%;
+}
+
+.zero {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: blue;
+
+}
+
+.audit-main-container {
+    /* border: 2px solid red; */
+    /* height: 700px; */
+
+}
+
+.audit-container {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.audit1 {
+
+    /* border: 2px solid blueviolet; */
+    height: 30vh;
+    width: 20%;
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 3px 3px 5px 2px rgb(226, 226, 226);
+    /* padding: 30px; */
+}
+
+.audit1 h2 {
+    line-height: 70px;
+}
+
+.consectetur-main-container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 120vh;
+    align-items: center;
+}
+
+.consectetur-container {
+    /* border: 2px solid green; */
+    width: 62%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.consectetur-container img {
+    height: 50vh;
+    width: 100%;
+}
+
+.consectetur-container-heading {
+    /* border: 2px solid black; */
+    width: 50%;
+}
+
+.consectetur-container-heading h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.officia-main-container {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.official-container {
+    /* border: 2px solid blue; */
+    width: 65%;
+}
+
+.officia-container {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.officia-container img {
+    margin-top: 30px;
+    height: 70vh;
+    width: 400px;
+    width: 300px;
+
+}
+
+.officia-container :last-child {
+    margin-top: 170px;
+}
+
+.img-heading {
+    width: 600px;
+    /* margin-bottom: 40px; */
+}
+
+.img-heading h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.volutpat--main-container {
+    display: flex;
+    justify-content: center;
+    height: 150vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.volutpat-left-container {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+
+
+    align-items: center;
+    /* height: 40vh; */
+}
+
+.volutpat-right-container {
+    /* border: 2px solid rebeccapurple; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+    /* justify-content: center; */
+}
+
+.volutpat-right-container h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.volutpat-right-container p {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.volutpat-right-container img {
+    width: 600px;
+    height: 60vh;
+}
+
+.volutpat-left-container img {
+    width: 350px;
+}
+
+.oolutpat-left-container img {
+    height: 95vh;
+}
+
+.book-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* gap: 30px; */
+}
+
+.book-container {
+    width: 50%;
+}
+
+.book-container img {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.dark {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.book-main-container h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.leadership-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leadership-container {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.andry-main-container {
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    align-items: center;
+
+}
+
+.andry-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    gap: 50px;
+}
+
+.eiusmod-main-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 90vh;
+}
+
+.eiusmod-container {
+    font-size: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+
+}
+
+.eiusmod-container button {
+    width: 150px;
+    height: 45px;
+    margin-top: 40px;
+    background-color: #0E6EFF;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+@media screen and (min-width: 480px) {
+
+  }
